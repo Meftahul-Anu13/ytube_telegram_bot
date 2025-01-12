@@ -3,7 +3,7 @@ import logging
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, filters, Application, ConversationHandler, ContextTypes
 from pytube import YouTube
-from moviepy.editor import *
+from moviepy import *
 from dotenv import load_dotenv
 load_dotenv()
 logging.basicConfig(
